@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct Item {
+struct Item: Codable {
     var name: String;
     var isChecked: Bool = false;
 }
